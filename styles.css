@@ -1,0 +1,96 @@
+@font-face {
+    
+    src: url("detourDork PC/DETOD___.TTF");
+    font-family: tour;
+}
+
+body{
+    font-family: tour;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width:100px;
+    height:100px;
+    border-radius: 10%;
+    
+}
+
+.activity{
+    width:250px;
+    margin: 20px auto 40px auto;
+
+}
+
+#my_pic{
+    margin:10px;
+    width: 100px;
+    height: 120px;
+    border-radius:0px;
+
+}
+
+.inline-blocks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxing{ 
+    padding: 10px 20px;
+    background:linear-gradient(rgb(95, 95, 168), rgb(173, 246, 174));
+    border-radius:5px;
+}
+
+#hero{
+    background: url('images/mugla.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+#activities{
+    background: rgb(229, 252, 229);
+    border-radius: 5px;
+    color:#453835;
+}
+
+p{
+    font-style: italic;
+}
+
+#guide{
+    margin:20px;
+    width:400px;
+    height:150px;
+    background:#e1e4b7;
+    padding:10px;
+    border:2px dotted #ece4a3;
+    border-radius:5px;
+
+}
+
+#contact{
+    margin:20px;
+    width:400px;
+    height:150px;
+    background:rgb(211, 240, 250);
+    padding:10px;
+    border:2px dotted #bee7f0;
+    border-radius:5px;
+}
+
+#contact:hover{
+    background:rgb(238, 207, 144);
+}
+
+#tour{
+    background: linear-gradient(rgb(229, 252, 229), white);
+}
+
